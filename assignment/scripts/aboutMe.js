@@ -37,6 +37,7 @@ let friendsPets = 1
 pets += 2
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3
+
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
@@ -49,6 +50,8 @@ else{
   result = 'How about we stay home?'
 }
 console.log( result)
+// Shoutout to SheCodes Athena https://www.shecodes.io/athena/3504-how-to-initialize-a-variable-in-an-if-else-expression for explaining how to create a variable with a conditional value.
+
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
@@ -104,7 +107,7 @@ console.log( mostPets)
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
-let luckyResult = 4;
+let luckyResult = luckyNumber;
   switch(luckyResult){
     case 1:
       luckyResult = 'First is the worst';
@@ -120,11 +123,16 @@ let luckyResult = 4;
 
   }
 console.log(luckyResult)
+// Thank you Marcos for helping me make sense of switch statements! And https://www.w3schools.com/js/js_switch.asp for providing the syntax in the first place.
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
+// function result(adventurous) {
+//  return adventurous ? 'Adventures are great!' : 'How about we stay home?';
+// }
+// console.log((getFee(true));
 
-
-
+// Did my best with the info from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator. 
+// It looks like something is wrong bc it messed up the rest of my code before I changed it to a comment, but I couldn't figure out what!
 
 
 
